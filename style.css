@@ -1,0 +1,21 @@
+body{
+    color: white;
+    background-color: rgb(204, 36, 134);
+    font-family: 'Quicksand';
+}
+
+h3{
+    color: green;
+}
+
+img{
+    width: 400px;
+    height: 250px;
+    padding: 20px;
+    margin: 20px;
+}
+
+footer{
+    background-color: gold;
+    color: black;
+}

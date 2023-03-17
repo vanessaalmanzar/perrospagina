@@ -1,0 +1,110 @@
+<html>
+<head>
+<title>Pagina web de perros</title>
+<link rel="stylesheet" type="text/css" href="style.css">
+    </head>
+
+        <body>
+            <!--Etiquetas de encabezados-->
+            <h1>Hola mundo</h1>
+            <h2>Esta es mi primera pagina web</h2>
+            <h3>Esta es una pagina de perros</h3>
+            <h4>Hecha por Vanessa Almanzar Valdez</h4>
+            <!--Agregar imagen desde internet-->
+            <img src="https://th.bing.com/th/id/R.06b3ad88a2a1784b6049dd30b4e7efc8?rik=9D5FTMwYctQQ%2bg&riu=http%3a%2f%2fdescargarimagenesgratis.org%2fwp-content%2fuploads%2f2014%2f09%2fFotos-de-perros-tiernos-4.jpg&ehk=tcGHvSj%2f%2bgH6WD2zQYtgPcirHYREWsOu3vOibJGNW2c%3d&risl=&pid=ImgRaw&r=0">
+           
+            <br>
+            <!--Agregar imagen desde computadora-->
+            <img src="labrador.jpg"> 
+
+            <!--Listas-->
+            <h3>Lista de perros</h3>
+            <p>Tres cosas que los perros <strong>aman</strong></p>
+
+            <!--Lista ordenada-->
+            <ol>
+                <li>Dormir</li>
+                <li>Comer</li>
+                <li>Jugar</li>
+            </ol>
+
+            <!--Lista desordenada-->
+            <p>Tres cosas que los perros <strong>odian</strong></p>
+            <ul>
+                <li>Bañar</li>
+                <li>Ir al veterinario</li>
+                <li>Cortarse las uñas</li>
+                <!--li*numero de veces para que aparezca-->
+                </li>
+            </ul>
+
+            <!--Hipervinculos misma pestaña-->
+            <p>Si quieres ver más fotos de perros <a href="https://pixabay.com/es/images/search/perros/"> da clic aquí</a></p>
+
+            <!--Hipervinculos otra pestaña-->
+            <p>Si quieres ver más fotos de perros <a href="https://pixabay.com/es/images/search/perros/" target="_blank"> da clic aquí</a></p>
+        
+            <!--Formulario con botones de radio-->
+            <form>
+                <p>¿Tu perro es cachorro o adulto?</p>
+            </form>
+            <label>
+                <input id="cachorro" type="radio"
+                value="cachorro" name="cachorro-adulto"> Cachorro
+            </label>
+            <label>
+                <input id="adulto" type="radio"
+                value="adulto" name="cachorro-adulto"> Adulto
+            </label>
+
+            <!--Formulario con botones de radio, opcion marcada y salto de linea-->
+            <form>
+                <p>¿Tu perro es cachorro o adulto?</p>
+            </form>
+            <label>
+                <input id="cachorro" type="radio"
+                value="cachorro" name="cachorro-adulto" checked> Cachorro
+                </label>
+                <br>
+                <label>
+                <input id="adulto" type="radio"
+                value="adulto" name="cachorro-adulto" checked> Adulto
+            </label>
+
+            <!--Caslla de verificacion-->
+            <form>
+            <p>¿Cómo es el carácter de tu perro?</p>
+            </form>
+            <label>
+                <input id="perezoso" type="ckeckbox"
+                value="perezoso" name="personalidad" checked> Perezoso
+            </label>
+            <br>
+            <label>
+                <input id="perezoso" type="ckeckbox"
+                value="perezoso" name="personalidad"> Perezoso
+            </label>
+            <br>
+            <label>
+                <input id="perezoso" type="ckeckbox"
+                value="perezoso" name="personalidad"> Perezoso
+            </label>
+
+
+            <form>
+                <p>¿Cómo es el carácter de tu perro?</p>
+            </form>    
+                <input type="checkbox" id="vehicle1" name="vehicle1" value="Bike">
+                <label for="vehicle1"> I have a bike</label><br>
+                <input type="checkbox" id="vehicle2" name="vehicle2" value="Car">
+                <label for="vehicle2"> I have a car</label><br>
+                <input type="checkbox" id="vehicle3" name="vehicle3" value="Boat">
+                <label for="vehicle3"> I have a boat</label><br><br>
+            
+
+            <footer>
+                <p><small>Esta página fue creada durante el bootcam de <a href="https://tecnolochicas.mx/" target="_blank"> tecnolochicas pro</a></small></p>
+            </footer>
+
+        </body>
+</html>
